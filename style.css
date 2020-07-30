@@ -1,13 +1,14 @@
 body{
-    background-image: url(bg.jpg);
+    background-image: url(b2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 h1{
     text-align: center;
     font-size: 60px;
     font-family: monospace;
-    color: dodgerblue;
+    color: #f4ce1d;
 }
 section{
     display: flex;
@@ -17,17 +18,16 @@ input{
     display: block;
     width: 30%;
     height: 35px;
-    border: 2px solid #acb5bd;
+    border: 2px solid #f4ce1d;
     background: none;
     outline: none;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 5px;
-    color: dodgerblue;
+    color: white;
 }
 ul{
     list-style: none;
 }
-
 button{
     padding: 19px;
     margin-left: 20px;
@@ -35,12 +35,12 @@ button{
     outline: none;
     font-size: 17px;
     border-radius: 5px;
-    background-color:dodgerblue;
-    color: white;
+    background-color:#f4ce1d;
+    color: black;
     line-height: 1px;
 }
 button:hover {
-    background-color: rgb(25, 82, 139);
+    background-color: #9e8c32;
     transition: all ease-in 0.5s;
 
 }
@@ -48,16 +48,13 @@ li {
     display: flex;
     justify-content: center;
     font-size: 28px;
-    color: dodgerblue;
+    color: white;
     margin-right: 50px;
     font-family: 'Lobster', cursive;
     font-weight: 600;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 600px){
-    body {
-       background-size: 100vh;
-    }
     h1{
         font-size: 20px;
     }
@@ -65,12 +62,12 @@ li {
         display: block;
         width: 84%;
         height: 35px;
-        border: 2px solid #acb5bd;
+        border: 2px solid #f4ce1d;
         background: none;
         outline: none;
         font-size: 14px;
         border-radius: 5px;
-        color: dodgerblue;
+        color: white;
         margin-left: 16px;
     }
     button{
@@ -84,7 +81,7 @@ li {
     }
     li{
         font-size: 12px;
-        color: dodgerblue;
+        color: white;
         font-family: 'Lobster', cursive;
     
     }
